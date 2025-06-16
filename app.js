@@ -65,6 +65,17 @@ console.log(10!=10)//false
 console.log(10!=20)//true
 
 
+// let firstFavNum =5
+// let secondFavNum =9
+console.log(firstFavNum > secondFavNum) // false
+console.log(firstFavNum < secondFavNum) // true
+console.log(firstFavNum >= secondFavNum) // false
+console.log(firstFavNum <= secondFavNum) // true
+console.log(firstFavNum === secondFavNum) // false
+console.log(firstFavNum == secondFavNum) // false
+console.log(firstFavNum !== secondFavNum) // true
+console.log(firstFavNum != secondFavNum) // true
+
 
 
 
