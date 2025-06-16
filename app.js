@@ -117,11 +117,35 @@
 // console.log(justName.trim())//meghana meher
 
 
-let favActorFname = "Mathew"
-let favActorLname = "Perry"
+// let favActorFname = "Mathew"
+// let favActorLname = "Perry"
 
-let fullActor = favActorFname+ " "+ favActorLname
-let uppercase = fullActor.toUpperCase()
-let message = `My Fav actor is ${uppercase} & he is old,`
-message += ` his best show is friends`
-console.log(message)
+// let fullActor = favActorFname+ " "+ favActorLname
+// let uppercase = fullActor.toUpperCase()
+// let message = `My Fav actor is ${uppercase} & he is old,`
+// message += ` his best show is friends`
+// console.log(message)
+
+
+// type conversion
+let money = "50"
+
+// string to number
+// money= parseInt(money);
+// money= +money;
+// money = Number(money);
+
+// for decimal
+// money=parseFloat(money)
+
+console.log(money)
+console.log(typeof money)
+
+let mymoney=50
+
+// number to string
+// mymoney = mymoney.toString()
+// mymoney=String(mymoney)
+
+console.log(mymoney)
+console.log(typeof mymoney)
