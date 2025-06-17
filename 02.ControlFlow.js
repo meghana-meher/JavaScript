@@ -82,3 +82,29 @@ do{
 myname++
 }
 while(myname<=100)
+
+
+// logical operators
+// 1. -> logical AND (&&) --> both should be true or o/p will be false
+const a = true;
+const b = false;
+const c =4;
+
+console.log(a && b); //false
+console.log(c>2 && c<2) //false
+
+// 2. -> Logical OR (||) --> either one should be true or o/p will be false
+console.log(a||b); //true
+console.log(c>2 && c<2) //true
+
+// 3. ->Logical Not(!) --> it will give opposite
+console.log(!a)//false
+
+
+let Password ="meghana-meher"
+if(Password.length>=8 && Password.includes("-"||"*", "meher" )){
+    console.log("valid password")
+}
+else{
+    console.log("check your password")
+}
