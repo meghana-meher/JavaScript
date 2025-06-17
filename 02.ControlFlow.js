@@ -55,3 +55,30 @@ switch (fruit) {
 }
 
 // for loop 
+for (let i=0; i<= 5; i++){
+    console.log("outer loop", i)
+    // nested loop
+for (let j =1; i<=2; j++){
+    console.log("inner loop", j)
+}
+}
+
+for (let name = 0; name<=5; name++){
+    console.log("meghana", name)
+}
+
+// while loop
+let names =10
+while ( names <=100) {
+    console.log("meghana", names)
+    names++ //mandatory otherwise loop will not end
+
+}
+
+// do while loop
+let myname =20
+do{
+    console.log("meghana", myname)
+myname++
+}
+while(myname<=100)
