@@ -1,22 +1,22 @@
 // array
-let fruits = ["mango", "orange", "apple"]
-console.log(fruits[2])//apple
+let fruits = ["mango", "orange", "apple"];
+console.log(fruits[2]); //apple
 
 //Two Dimension || nested array
-const nestArr = ["one", ["two","three"], 1, true, false];
-console.log(nestArr[4])//false
-console.log(nestArr[1])//two, three
-console.log(nestArr[1][1])// three
+const nestArr = ["one", ["two", "three"], 1, true, false];
+console.log(nestArr[4]); //false
+console.log(nestArr[1]); //two, three
+console.log(nestArr[1][1]); // three
 
-let favSingers=["Jimin", "Taylor", "Papon"];
-console.log(favSingers[0])
-let favNumbers =[5,9,1,7]
-let mixedArr =["something", ["hello world"], 123, true]
-console.log(mixedArr)
-console.log(mixedArr[0])
-console.log(mixedArr[1])
-console.log(mixedArr[2])
-console.log(mixedArr[3])
+let favSingers = ["Jimin", "Taylor", "Papon"];
+console.log(favSingers[0]);
+let favNumbers = [5, 9, 1, 7];
+let mixedArr = ["something", ["hello world"], 123, true];
+console.log(mixedArr);
+console.log(mixedArr[0]);
+console.log(mixedArr[1]);
+console.log(mixedArr[2]);
+console.log(mixedArr[3]);
 
 // array methods
 
@@ -47,22 +47,31 @@ fruit.unshift("orange");
 // let totalFruits = fruit.concat(moreFruits);
 
 console.log(fruit);
-console.log(fruit.join("$"))
+console.log(fruit.join("$"));
 
 // OBJECTS
-const person={
-    name : "meghana",
-    age:80,
-    location:["Telangana", "India"],
-    isProgrammer:true,
-
+const person = {
+  name: "meghana",
+  age: 80,
+  location: ["Telangana", "India"],
+  isProgrammer: true,
 };
-console.log(person.location)
-console.log(person['location'])
+console.log(person.location);
+console.log(person["location"]);
 
-
-const sample={
-    10:"ten",
+const sample = {
+  10: "ten",
 };
 // console.log(sample.10)//this will show a error
-console.log(sample['10'])//ten o/p this will not give error for this purpose we will use bracket 
+console.log(sample["10"]); //ten o/p this will not give error for this purpose we will use bracket
+
+const car = {
+  type: "audi",
+  model: "A6",
+  Color: "Green",
+};
+
+console.log(typeof car); //object
+car.type = "toyota";
+car.wheels = 4;
+console.log(car);
